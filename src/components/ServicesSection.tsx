@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { SERVICES, BOOKING_URL } from '../data/content';
 import { ArrowRight, Check, Shield, Users, Briefcase, HeartHandshake, GraduationCap } from 'lucide-react';
+import auditDeskImg from '../assets/images/audit_compliance_desk_1790933330696.jpg';
+import consultingMeetingImg from '../assets/images/consulting_meeting_1790933319724.jpg';
 
 interface ServicesSectionProps {
   onSelectService: (serviceTitle: string) => void;
@@ -165,8 +167,8 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
                 <img
                   src={
                     currentService.id === 'securisation-juridique'
-                      ? '/src/assets/images/audit_compliance_desk_1790933330696.jpg'
-                      : '/src/assets/images/consulting_meeting_1790933319724.jpg'
+                      ? auditDeskImg
+                      : consultingMeetingImg
                   }
                   alt={currentService.title}
                   referrerPolicy="no-referrer"

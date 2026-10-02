@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, ShieldCheck, Scale, Clock, CheckCircle2 } from 'lucide-react';
 import { BOOKING_URL } from '../data/content';
+import heroImg from '../assets/images/hero_aurealys_consulting_1790933304796.jpg';
 
 interface HeroProps {
   onOpenBooking: () => void;
@@ -96,7 +97,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onOpenQuiz }) => {
               {/* Main Image Container */}
               <div className="relative rounded-lg overflow-hidden shadow-xl border border-[#E7E5E4] bg-[#EAE8E2]">
                 <img
-                  src="/src/assets/images/hero_aurealys_consulting_1790933304796.jpg"
+                  src={heroImg}
                   alt="Consultation RH et conseil stratégique en droit social avec Mathilde Galland"
                   referrerPolicy="no-referrer"
                   className="w-full h-[400px] sm:h-[480px] object-cover object-center"

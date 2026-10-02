@@ -1,6 +1,7 @@
 import React from 'react';
 import { FOUNDER_INFO } from '../data/content';
 import { Scale, HeartHandshake, Compass, CheckCircle2, ArrowRight } from 'lucide-react';
+import founderImg from '../assets/images/hero_aurealys_consulting_1790933304796.jpg';
 
 interface AboutFounderProps {
   onOpenBooking: () => void;
@@ -20,7 +21,7 @@ export const AboutFounder: React.FC<AboutFounderProps> = ({ onOpenBooking }) => 
               {/* Image Frame */}
               <div className="relative rounded-lg overflow-hidden border border-[#E7E5E4] shadow-lg bg-[#EFECE6]">
                 <img
-                  src="/src/assets/images/hero_aurealys_consulting_1790933304796.jpg"
+                  src={founderImg}
                   alt="Mathilde Galland - Juriste en droit social et fondatrice d'AUREALYS Conseil RH"
                   referrerPolicy="no-referrer"
                   className="w-full h-[460px] object-cover object-top"
