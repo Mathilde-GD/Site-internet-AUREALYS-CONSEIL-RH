@@ -1,0 +1,6 @@
+{
+  "name": "AUREALYS Conseil RH",
+  "description": "Cabinet de conseil en Ressources Humaines et Droit Social pour dirigeants de TPE & PME fondé par Mathilde Lefranc. Externalisation RH, sécurisation juridique et accompagnement managérial sur-mesure.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
